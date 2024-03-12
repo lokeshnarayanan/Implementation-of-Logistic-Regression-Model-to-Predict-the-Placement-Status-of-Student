@@ -32,7 +32,7 @@ data=pd.read_csv("/content/Placement_Data.csv")
 data.head()
 
 data1=data.copy()
-data1=data1.drop(["sl_no","salary"],axis=1)#Browses the specified row or column
+data1=data1.drop(["sl_no","salary"],axis=1)
 data1.head()
 
 data1.isnull().sum()
